@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class TriangleAreaCalc {
     public static void main(String[] args){
         int edgeA, edgeB, edgeC, halfPerimeter;
         double area;
@@ -14,9 +14,11 @@ public class Main {
         edgeC = input.nextInt();
 
         halfPerimeter = (edgeA + edgeB + edgeC) / 2;
-        area = Math.sqrt[halfPerimeter * (halfPerimeter - edgeA) * (halfPerimeter - edgeB) * (halfPerimeter - edgeC)];
+        area = Math.sqrt(halfPerimeter * (halfPerimeter - edgeA) * (halfPerimeter - edgeB) * (halfPerimeter - edgeC));
 
-         System.out.println("Area of the triangle: " + area);       
+        System.out.println("--------------------------------");
+        System.out.println("Area of the triangle: " + area);
+        System.out.println("--------------------------------");       
 
     }
 }
